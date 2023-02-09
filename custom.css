@@ -1,0 +1,31 @@
+/* Color Palette
+#F2E8B6
+#F2BB16 golden
+#F27127 orange 
+#F2522E reddish
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Mukta&family=Nabla&display=swap');
+
+
+html{
+font-size: min(1.2rem, 20vw);
+
+}
+
+
+body .container{
+  width: 100%;
+  
+}
+
+body .container header .navbar .navbar-brand{
+    color: white !important;
+    font-family: 'Nabla', cursive;
+    
+}
+
+body .container header .navbar .nav-link{
+    color: white !important;
+    font-family: 'Mukta', sans-serif;
+}
