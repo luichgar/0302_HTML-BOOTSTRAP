@@ -10,12 +10,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./custom.css">
 </head>
-<body class="bg-dark">
+<body>
   <div class="container">
 
 
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4 m-0">
+      <nav class="navbar navbar-expand-lg navbar-dark p-4 m-0">
           <div class="container">
             <a class="navbar-brand" href="#">Emulation<br>OnAndroid</a>
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,11 +59,106 @@
     </header>
 
     <main>
+      <div class="card bg-transparent m-5" style="border: none;">
+        <h3 class="text-center p-5 text-light">EmulationOnAndroid is a resource for emluating all sort of game consoles on the most widespread device on the planet, Android Phones.</h3>
+      </div>
+
+      <div class="card text-center m-5">
+        <div class="card-header">
+          Android is a powerful operating system capable of emulating consoles as:
+        </div>
+        <div class="card-body">
+          <div class="row row-cols-1 row-cols-md-4 g-4 p-5 ">
+            <div class="col">
+              <div class="card">
+                <img src="./images/ns-logo.svg" class="card-img-top" alt="Nintendo Switch logo">
+                <div class="card-body">
+                  <h5 class="card-title">Nintendo Switch</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./images/n3ds-logo.svg" class="card-img-top" alt="Nintendo 3ds logo">
+                <div class="card-body">
+                  <h5 class="card-title">Nintendo 3ds</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./images/ps2-logo.svg" class="card-img-top" alt="PlayStation 2 logo">
+                <div class="card-body">
+                  <h5 class="card-title">PlayStation 2</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./images/psvita-logo.svg" class="card-img-top" alt="PlayStation Vita logo">
+                <div class="card-body">
+                  <h5 class="card-title">Platstation Vita</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer text-muted">
+            <p class="card-text justify-content-center">And much more...</p>
+            <a href="#" class="btn btn-primary my-2 mx-5">Setup Guide</a>
+          </div>
+        </div>
+      </div>
       
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/AetherSX2-emulator-edit-scaled.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>AetherSX2 is the best way to play PlayStation 2 games on your phone</h5>
+              <p>PlayStation 2 emulation has been in a weird place on Android for a long, long time.</p>
+              <a href="https://www.xda-developers.com/aethersx2-playstation-emulator/">[Read more...]</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/emulators-hero-image.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Best emulators for Android in 2023</h5>
+              <p>One of the best ways to play retro video games isn't with a used console but with an Android emulator.</p>
+              <a href="https://www.xda-developers.com/best-emulators-android/">[Read more...]</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/PS-Vita-indie-games.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>A PlayStation Vita emulator for Android is launching in just a few days</h5>
+              <p>We can soon add PlayStation Vita to the list of consoles you can emulate on Android.</p>
+              <a href="https://www.androidauthority.com/vita3k-playstation-vita-emulator-android-3277131/">[Read more...]</a>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
     </main>
 
-    <footer>
-
+    <footer class="bg-transparent text-center">
+      <div class="text-center p-3">
+        <p class="text-light-emphasis">Made by Luis Garcia - Copyright 2023.</p> 
+      </div>
     </footer>
 
 
@@ -71,3 +166,4 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
+
