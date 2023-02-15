@@ -1,6 +1,6 @@
 /* Color Palette
 #F2E8B6
-#F2BB16 golden
+#F2BB16 golden /// #c19511 shadow
 #F27127 orange 
 #F2522E reddish
 */
@@ -23,11 +23,31 @@ body {
 body .container header {
   font-size: 1.5rem;
 }
+body .container header a{
+  color: white;
+}
 
 body .container header .navbar .navbar-brand{ 
   font-family: 'Nabla', cursive;   
   font-size: 2rem;
 }
 
-body .container 
+
+
+body .container .eoa-color-bg{
+  background-color: #F27127;
+}
+
+body .container .eoa-text-emphasis{
+  color: #F27127;
+}
+
+body .container a{
+
+  text-decoration-color: #F2BB16;
+  color:black;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 3px;
+}
+
 
